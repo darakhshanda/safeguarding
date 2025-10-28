@@ -13,9 +13,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon_64x64.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon_32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon_16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32"
-        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABnElEQVRYR+2WQWoFQRBGn0pZBWEr1AUFW4FwF0A3wA3ITrkBJJT9QF1D4F0g3wA3QG9QF9QF5wMTk4RY8YN6g4jz/2ur+VjZb2A4b9iA9R1gBSJcQk5W2A1YXjF7I8hWw5wD6wU4hYH/5w1Q0JfA5jQBOEeInwRL9sCj/F4M1FcB5ZrA6WRD7iXw9sQ7Y9V9iSg4tgyw4w5q1r7kzFQ3cY6vYc1w4u8wZ5LmC2zT9m1Tt+z5n6p8g2oydR7wTtR6wGqM8gX8k6g9wKqA8gX8k6g9wIuQwV7AewvR3hDjv7rfA0/0w0YjB8p+4w6n4AQA9o4jvQZc5gAAAABJRU5ErkJggg==">
-
 
     <link rel="manifest" href="/site.webmanifest">
     <!-- Bootstrap 5 CSS -->
@@ -61,38 +58,34 @@
         </div>
     </nav>
     <!-- Header with carousel -->
-    <header id="header" class="container section">
-        <section id="hero-section" class="d-flex  position-absolute top-0 start-0 w-100 h-100 mb-4">
-            <div>
-                <!--Contact Emergency Services-->
-                <a id="emergency-button" class="btn btn-primary mb-4" href="emergency-contact.html"> <i
-                        class="fa fa-phone"></i>
-                    Contact Emergency
-                    Services</a>
-            </div>
-        </section>
-        <div class="col-12 col-xl-4 text-center text-xl-center mb-4 mx-auto">
-            <div id="cover-text">
-                <h2>What is Safeguarding?</h2>
-                <h3>Everyone has the right to feel safe and protected. Learn how you can recognize, prevent, and respond
-                    to safeguarding concerns.</h3>
-            </div>
+    <header id="header" class="container">
+        <div id="hero-section" class="d-flex start-0 mb-4">
+        </div>
+        <div class="container position-relative z-2">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10  text-center">
 
+                    <h3>Everyone has the right to feel safe and protected.</h3>
+
+                </div>
+            </div>
         </div>
     </header>
-
+    <!--main section -->
     <main>
-
-        <div class="col-12 col-xl-6 text-center text-xl-start">
-            <h1 class="display-3">Safeguarding</h1>
-            <p class="lead display-6 sub-heading-color">
-                Safeguarding means protecting a person's health, wellbeing, and human rights, enabling them to live free
-                from harm, abuse, and neglect.
-            </p>
-        </div>
+        <section id="information" class="container mb-4">
+            <div class=" col-12 col-xl-6 text-center text-xl-start">
+                <h1 class="display-3">Safeguarding</h1>
+                <p class="lead display-6 sub-heading-color">
+                    Safeguarding means protecting a person's health, wellbeing, and human rights, enabling them to live
+                    free from harm, abuse, and neglect. Learn how one can recognize, prevent, and respond to
+                    safeguarding concerns. Recognise the signs, take safe action, and access support.
+                </p>
+            </div>
+        </section>
 
         <!-- Flat sign quick actions -->
-        <section id="flat-signs-block" class="container">
+        <section id="flat-signs-block" class="container mb-4">
             <div class="flat-signs" role="navigation" aria-label="Quick actions">
                 <a class="flat-sign" href="report.html" aria-label="Report a concern">
                     <span class="icon" aria-hidden="true">
@@ -100,6 +93,7 @@
                         <i class="fa-regular fa-flag fa-beat-fade"></i>
                     </span>
                     <span class="label">Report</span>
+                    <span class="action">Take action</span>
                     <span class="sub">Tell us about a concern</span>
                 </a>
 
@@ -108,8 +102,9 @@
                         <!-- Phone/contact icon -->
                         <i class="fa-regular fa-phone fa-beat-fade"></i>
                     </span>
-                    <span class="label">Contact</span>
-                    <span class="sub">Get support & info</span>
+                    <span class="label">Get support</span>
+                    <span class="action">Are you at risk?</span>
+                    <span class="sub">Get advice</span>
                 </a>
 
                 <a class="flat-sign" href="emergency-contact.html" aria-label="Emergency services">
@@ -118,6 +113,7 @@
                         <i class="fa-regular fa-bell fa-beat-fade"></i>
                     </span>
                     <span class="label">Emergency</span>
+                    <span class="action">Immediate danger!</span>
                     <span class="sub">Immediate help</span>
                 </a>
 
@@ -127,7 +123,10 @@
                         <i class="fa-regular fa-eye fa-beat-fade"></i>
                     </span>
                     <span class="label">Look for signs</span>
+                    <span class="action">Is someone at risk?</span>
                     <span class="sub">Recognise indicators</span>
+
+
                 </a>
             </div>
         </section>

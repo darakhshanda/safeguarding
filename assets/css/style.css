@@ -21,8 +21,9 @@
   --color-nude-bg: #f6f2eb;
 
   /*  Text Colors */
-  --color-text-dark: #2f2f2f;
+  --color-text-dark: #360707;
   --color-text-muted: #333333;
+  --color-text-darker: #1a1a1a;
 
   /*  Accent Colors */
   --color-btn: #5c8a72;
@@ -40,37 +41,50 @@
 /* Fix navbar overlap on internal links */
 
 html {
-  scroll-padding-top: 55px;
+  scroll-padding-top: nav(--navbar-height);
+  /*scroll-padding-top: 55px; */
 }
+/* Body styles */
 body {
   background-color: var(--color-nude-bg);
   color: var(--color-text-dark);
   font-family: var(--secondary-font);
 }
+/* Navbar styles */
+#navbar {
+  background-color: var(--color-green-dark);
+}
+#navbar .logo {
+  width: 30px;
+}
 
+/* Hero section */
+#hero-section {
+  height: 520px;
+  width: 100%;
+  background: url("../images/safe_gif.jpg") no-repeat center center/cover;
+  position: absolute;
+}
+/* Main content */
+main {
+  /* Enlarge main element to push footer down*/
+  flex: 1 0 auto;
+  /* Add margin at the top to prevent content from being covered by the header */
+  margin-top: 300px;
+  padding: 2rem;
+  /* Enable flex properties for child elements */
+  display: flex;
+  flex-direction: column;
+}
 h1,
 h2,
 h3 {
   font-family: var(--primary-font);
   color: var(--color-green-dark);
 }
-
-/* Main content */
-main {
-  /* Enlarge main element to push footer down*/
-  flex: 1 0 auto;
-  /* Add margin at the top to prevent content from being covered by the header */
-  margin-top: 47px;
-  /* Enable flex properties for child elements */
-  display: flex;
-  flex-direction: column;
-}
-/* Hero section */
-#hero-section {
-  height: 520px;
-  width: 100%;
-  background: url("../images/safe_gif.jpg") no-repeat center center/cover;
-  position: relative;
+header h3 {
+  margin: 4rem;
+  color: var(--color-text-darker);
 }
 
 h1,
@@ -78,25 +92,14 @@ h2 {
   margin: 2rem;
   text-transform: uppercase;
 }
-#emergency-button {
-  height: 30vw;
-  width: 30vw;
-  text-align: justify;
-  /* Makes the square image into a circle */
-  border-radius: 50%;
-  max-width: 200px;
-  max-height: 200px;
-  cursor: pointer;
-  bottom: -19px;
-  right: -1px;
-  background-color: transparent;
-  position: absolute;
-  font-size: 1.5rem;
-  border: 4px solid var(--secondary-color);
-  color: var(--secondary-color);
-  padding: 5px 5px;
-  font-size: 1rem;
+/*footer*/
+#contact {
+  background-color: var(--color-green-dark);
+  color: white;
+  padding-bottom: 3rem;
 }
+
+/* Custom button outline */
 
 .custom-button-outline {
   border: 3px solid var(--highlight-color);
