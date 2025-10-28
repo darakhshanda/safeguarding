@@ -1,21 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600&family=Playfair+Display:wght@400;600;700&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+/* /Google Fonts Import/ */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600&family=Playfair+Display:wght@400;600;700&display=swap");
+
+/* General styles */
+
+/* CSS Variables */
+
 :root {
-  --primary-font: "Inter", sans-serif;
-  --secondary-font: "Macondo", cursive;
-  --primary-color: #c4771fad;
-  --secondary-color: #613105;
-  --highlight-color: #94a310;
-  --highlight-color-light: #d1ceaf;
-  --background-color: #f5f5dc;
+  /*  Primary Colors */
+  --color-green: #3f8c70;
+  --color-green-dark: #2e5e4f;
+  --color-green-light: #a3c2a0;
+
+  /*  Nude/ White for backgrounds */
+  --color-nude-bg: #f6f2eb;
+
+  /*  Text Colors */
+  --color-text-dark: #2f2f2f;
+  --color-text-muted: #333333;
+
+  /*  Accent Colors */
+  --color-btn: #5c8a72;
+  --color-btn-hover: #2e5e4f;
+  --color-border: #ddddd8;
+
+  /*  Extra UI */
+  --color-shadow: rgba(0, 0, 0, 0.05);
+
+  /* Font Families */
+  --primary-font: "Playfair Display", serif;
+  --secondary-font: "Lato", sans-serif;
+}
+
+/* Fix navbar overlap on internal links */
+
+html {
+  scroll-padding-top: 55px;
 }
 body {
-  font-family: var(--primary-font);
-  margin: 0;
-  padding: 0;
-  background-color: var(--highlight-color-light);
+  background-color: var(--color-nude-bg);
+  color: var(--color-text-dark);
+  font-family: var(--secondary-font);
 }
+
+h1,
+h2,
+h3 {
+  font-family: var(--primary-font);
+  color: var(--color-green-dark);
+}
+
 /* Main content */
 main {
   /* Enlarge main element to push footer down*/
@@ -34,12 +73,6 @@ main {
   position: relative;
 }
 
-h1,
-h2,
-h3 {
-  font-family: var(--secondary-font);
-  color: var(--primary-color);
-}
 h1,
 h2 {
   margin: 2rem;
