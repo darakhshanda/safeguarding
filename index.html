@@ -13,6 +13,10 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_64x64.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABnElEQVRYR+2WQWoFQRBGn0pZBWEr1AUFW4FwF0A3wA3ITrkBJJT9QF1D4F0g3wA3QG9QF9QF5wMTk4RY8YN6g4jz/2ur+VjZb2A4b9iA9R1gBSJcQk5W2A1YXjF7I8hWw5wD6wU4hYH/5w1Q0JfA5jQBOEeInwRL9sCj/F4M1FcB5ZrA6WRD7iXw9sQ7Y9V9iSg4tgyw4w5q1r7kzFQ3cY6vYc1w4u8wZ5LmC2zT9m1Tt+z5n6p8g2oydR7wTtR6wGqM8gX8k6g9wKqA8gX8k6g9wIuQwV7AewvR3hDjv7rfA0/0w0YjB8p+4w6n4AQA9o4jvQZc5gAAAABJRU5ErkJggg==">
+
+
     <link rel="manifest" href="/site.webmanifest">
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -21,6 +25,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 
 <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
 
@@ -43,9 +48,6 @@
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#emergency"> <i class="fa fa-phone"></i> Emergency</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#information">Information</a>
                     </li>
                     <li class="nav-item">
@@ -54,18 +56,47 @@
                     <li class="nav-item">
                         <a class="nav-link" href="report.html">Report</a>
                     </li>
-                    <!--Contact Emergency Services-->
-                    <li class="nav-item">
-                        <a class="btn custom-button-filled ms-lg-3" href="emergency.html">Contact Emergency Services</a>
-                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header>
+    <!-- Header with carousel -->
+    <header id="header" class="container section">
+        <section id="hero-section" class="d-flex  position-absolute top-0 start-0 w-100 h-100mb-4">
+            <div>
+                <!--Contact Emergency Services-->
+                <a id="emergency-button" class="btn btn-primary custom-button-outline mb-4" href="emergency.html"> <i
+                        class="fa fa-phone"></i>
+                    Contact Emergency
+                    Services</a>
+            </div>
+        </section>
+        <div class="col-12 col-xl-4 text-center text-xl-center mb-4 mx-auto">
+            <div id="cover-text">
+                <h2>What is Safeguarding?</h2>
+                <h3>Everyone has the right to feel safe and protected. Learn how you can recognize, prevent, and respond
+                    to safeguarding concerns.</h3>
+            </div>
+
+        </div>
+
 
     </header>
+
     <main>
+        <div class="row">
+            <div class="col-12 col-xl-6 text-center text-xl-start">
+                <h1 class="display-3">Welcome to the Safeguarding Project</h1>
+                <p class="lead display-6 sub-heading-color">
+                    This is a simple HTML template for the safeguarding project
+                </p>
+                <p class="my-4">
+                    a fun,
+                    affordable hangout, we've got you covered.
+                </p>
+            </div>
+
+        </div>
 
         <h1>Welcome to the Safeguarding Project</h1>
         <p>This is a simple HTML template for the safeguarding project.</p>
