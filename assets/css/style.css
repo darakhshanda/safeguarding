@@ -46,16 +46,23 @@ h2 {
   text-transform: uppercase;
 }
 #emergency-button {
-  /* Final rgba value sets the opacity so it is semi-transparent */
+  height: 30vw;
+  width: 30vw;
+  text-align: justify;
+  /* Makes the square image into a circle */
+  border-radius: 50%;
+  max-width: 200px;
+  max-height: 200px;
+  cursor: pointer;
+  bottom: -19px;
+  right: -1px;
   background-color: transparent;
   position: absolute;
+  font-size: 1.5rem;
   border: 4px solid var(--secondary-color);
   color: var(--secondary-color);
   padding: 5px 5px;
   font-size: 1rem;
-  cursor: pointer;
-  bottom: -19px;
-  width: 50%;
 }
 
 .custom-button-outline {
