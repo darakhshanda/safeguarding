@@ -93,6 +93,17 @@ h2 {
   margin: 2rem;
   text-transform: uppercase;
 }
+#six-principles {
+  background: url("../images/6_principles.png") no-repeat center center/contain;
+  height: 90vw;
+  width: 90vw;
+  margin-bottom: 20px;
+  /* Makes the square image into a circle */
+  border-radius: 50%;
+  max-width: 300px;
+  max-height: 300px;
+  margin: 0 auto;
+}
 /*footer*/
 footer {
   background-color: var(--color-green-dark);
