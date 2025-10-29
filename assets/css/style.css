@@ -10,15 +10,19 @@
 
 :root {
   /*  Primary Colors */
-  --color-green: #3f8c70;
+  --color-green: #959c54;
   --color-green-dark: #2e5e4f;
   --color-green-light: #a3c2a0;
+  --color-blue: #2596be;
+  --color-palete: #503453b;
+  --color-red: #bb4b50;
+  --color-tab-bg: #98726e;
 
   /*  Nude/ White for backgrounds */
-  --color-nude-bg: #f6f2eb;
+  --color-nude-bg: #d3a191;
 
   /*  Text Colors */
-  --color-text-dark: #360707;
+  --color-text-dark: rgba(11, 48, 128, 0.644);
   --color-text-muted: #333333;
   --color-text-darker: #1a1a1a;
 
@@ -49,7 +53,7 @@ body {
 }
 /* Navbar styles */
 #navbar {
-  background-color: var(--color-green-dark);
+  background-color: var(--color-green);
 }
 #navbar .logo {
   width: 30px;
@@ -106,7 +110,7 @@ h2 {
 }
 /*footer*/
 footer {
-  background-color: var(--color-green-dark);
+  background-color: var(--color-green);
   color: white;
   padding-bottom: 0rem;
   width: auto;
@@ -137,7 +141,7 @@ footer {
 .flat-sign {
   flex: 1 1 160px;
   max-width: 240px;
-  background: #ffffff;
+  background: var(--color-tab-bg);
   border-radius: 12px;
   padding: 14px;
   text-align: center;
