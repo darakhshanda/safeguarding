@@ -212,63 +212,7 @@
         <section id="action">
             <h2>6 Principles of Safeguarding</h2>
             <div id="principles-image-container" class="container mb-4">
-                <section class="six-circle-diagram" aria-label="Six principles of safeguarding">
-                    <div class="center-circle">
-                        <div class="center-text">
-                            <strong>The Six</strong>
-                            <span>Principles of</span>
-                            <span>Safeguarding</span>
-                        </div>
-                    </div>
-
-                    <div class="outer-circle" style="--i:0;">
-                        <div class="badge">
-                            <div class="num">1</div>
-                            <div class="title">Empowerment</div>
-                            <div class="desc">Support vulnerable people to make their own informed decisions</div>
-                        </div>
-                    </div>
-
-                    <div class="outer-circle" style="--i:1;">
-                        <div class="badge">
-                            <div class="num">2</div>
-                            <div class="title">Prevention</div>
-                            <div class="desc">Take action to stop abuse, harm and neglect before it occurs</div>
-                        </div>
-                    </div>
-
-                    <div class="outer-circle" style="--i:2;">
-                        <div class="badge">
-                            <div class="num">3</div>
-                            <div class="title">Proportionality</div>
-                            <div class="desc">Respond in the least intrusive manner as appropriate to the risk</div>
-                        </div>
-                    </div>
-
-                    <div class="outer-circle" style="--i:3;">
-                        <div class="badge">
-                            <div class="num">4</div>
-                            <div class="title">Protection</div>
-                            <div class="desc">Understand the best ways to support and protect vulnerable people</div>
-                        </div>
-                    </div>
-
-                    <div class="outer-circle" style="--i:4;">
-                        <div class="badge">
-                            <div class="num">5</div>
-                            <div class="title">Partnership</div>
-                            <div class="desc">Work with other organisations and the local community to keep people safe</div>
-                        </div>
-                    </div>
-
-                    <div class="outer-circle" style="--i:5;">
-                        <div class="badge">
-                            <div class="num">6</div>
-                            <div class="title">Accountability</div>
-                            <div class="desc">Everyone close to a vulnerable person is responsible for noting safeguarding concerns</div>
-                        </div>
-                    </div>
-                </section>
+                <div id="six-principles"></div>
                 <p>List of Principles<br>
                     Empowerment: People are supported and encouraged to make their own decisions, giving informed
                     consent whenever possible.<br>
@@ -311,7 +255,7 @@
     <!--mt-auto added to push footer to the bottom of the page -->
     <footer class="mt-auto">
         <div class="container" id="contact">
-            <div class="col-12 text-center">
+            <div class="col-12  text-center">
                 <h2>Contact us!</h2>
             </div>
             <div class="row justify-content-left">
@@ -322,8 +266,6 @@
                         <i class="fa-solid fa-location-dot"></i> 1 Fiveways <br>
                         Fiveways, 12345 <br>
                     </address>
-
-
                 </div>
                 <div class="col-12 col-md-6 col-xl-4">
                     <p>
@@ -343,6 +285,18 @@
                             aria-label="Visit our Instagram page (opens in a new tab)">
                             <i class="fa-brands fa-instagram"></i></a>
                     </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-xl-4">
+                    <form id="subscribe" action="#" method="post" aria-label="Contact form">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Subscribe to our newsletter</label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="Enter your email" required>
+                        </div>
+                        <button id="subscribe-btn" type="submit" class="btn custom-button-outline">Subscribe</button>
+                    </form>
                 </div>
             </div>
         </div>

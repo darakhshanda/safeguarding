@@ -16,10 +16,11 @@
   --color-blue: #2596be;
   --color-palete: #503453b;
   --color-red: #bb4b50;
-  --color-tab-bg: #98726e;
+  --color-tab-bg: #d3a191;
 
   /*  Nude/ White for backgrounds */
-  --color-nude-bg: #d3a191;
+  /*--color-nude-bg: #d3a191;*/
+  --color-nude-bg: #f5f1ed;
 
   /*  Text Colors */
   --color-text-dark: rgba(11, 48, 128, 0.644);
@@ -119,16 +120,26 @@ footer {
 /* Custom button outline */
 
 .custom-button-outline {
-  border: 3px solid var(--highlight-color);
-  background-color: var(--secondary-color);
+  border: 3px solid var(--color-redr);
+  background-color: var(--color-green-light);
   color: var(--highlight-color);
   padding: 7px 25px;
 }
 .custom-button-outline:hover {
-  background-color: var(--highlight-color);
-  color: white;
+  background-color: var(--color-green-dark);
+  color: var(--color-red);
 }
-
+#subscribe-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+#subscribe > input[type="email"] {
+  padding: 10px;
+  width: 100px;
+  border: 2px solid var(--color-border);
+  border-radius: 5px;
+  margin-right: 10px;
+}
 /* Flat signs (report, contact, emergency, look for signs) */
 .flat-signs {
   display: flex;
