@@ -65,8 +65,8 @@ A small static website that provides plain-language guidance, reporting pages, a
 
 #### Website is fully responsive — Mobile
 
-![mobile][mobileImage]
-![mobile][mobileImage]
+![mobile][mobileImage2]
+![mobile][mobileImage1]
 ![Mobile device screenshot of the safeguarding website home page showing a single-column layout with a top navigation bar containing a logo and hamburger menu, a hero section with the heading Safeguarding — Static informational site and a short explanatory paragraph, three quick-action tiles labeled Report, Get support, Emergency, and a visible call-to-action button; white background with blue accent elements; overall calm, clear, and helpful tone](assets/images/readme-image/mobile-3.png)
 ![Mobile screenshot of the Safeguarding website showing the Types of Abuse section. Top header with a small shield logo and hamburger menu, centered page title TYPES OF ABUSE. A green carousel card is focused with heading Domestic abuse, paragraph: Threats, violence and abuse between individuals that are family members or in an intimate relationship. Subheading Signs | Indicators followed by bullets: Unexplained injuries; Changes in behaviour; Fearfulness around certain individuals; Withdrawal from social activities. Below the card the heading ACTION STEPS is partially visible. Single-column mobile layout, calm and informative tone](assets/images/readme-image/mobile-4.png)
 ![mobile](assets/images/readme-image/mobile-5.png)
@@ -236,6 +236,6 @@ This README was updated to document the sections in `index.html` and provide qui
 [def]: assets/images/readme-image/user-story-8.png
 [userStoryImage9]: assets/images/readme-image/user-story-9.png
 [userStoryImage10]: assets/images/readme-image/user-story-10.png
-[userStoryImage11]: def
-[mobileImage]: assets/images/readme-image/mobile-2.png
-[mobileImage]: assets/images/readme-image/mobile-1.png
+[userStoryImage11]: assets/images/readme-image/user-story-11.png
+[mobileImage2]: assets/images/readme-image/mobile-2.png
+[mobileImage1]: assets/images/readme-image/mobile-1.png
