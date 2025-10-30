@@ -18,6 +18,37 @@ A small static website that provides plain-language guidance, reporting pages, a
 - `assets/css/style.css` — Main stylesheet
 - `assets/images/` — Images and manifest (`site.webmanifest`)
 
+## Readme images / screenshots
+
+The repository includes a small set of demo screenshots used for the README and documentation previews. They live in `assets/images/readme-image/`.
+
+Desktop, tablet and mobile views:
+
+![Desktop view](assets/images/readme-image/Desktop.png)
+
+_Desktop — full-width preview used for README showcase._
+
+![Tablet view](assets/images/readme-image/Tablet.png)
+
+_Tablet — medium-width preview._
+
+![Mobile view](assets/images/readme-image/mobile.png)
+
+_Mobile — narrow/small-screen preview._
+
+Additional screenshots (click to open full size):
+
+![Screenshot 1](assets/images/readme-image/Screenshot%202025-10-30%20053812.png)
+![Screenshot 2](assets/images/readme-image/Screenshot%202025-10-30%20053827.png)
+![Screenshot 3](assets/images/readme-image/Screenshot%202025-10-30%20053912.png)
+![Screenshot 4](assets/images/readme-image/Screenshot%202025-10-30%20053921.png)
+![Screenshot 5](assets/images/readme-image/Screenshot%202025-10-30%20053934.png)
+![Screenshot 6](assets/images/readme-image/Screenshot%202025-10-30%20053944.png)
+![Screenshot 7](assets/images/readme-image/Screenshot%202025-10-30%20053954.png)
+![Screenshot 8](assets/images/readme-image/Screenshot%202025-10-30%20083110.png)
+
+If you rename or move these images, update the paths above. To reduce README size on GitHub, consider using lower-resolution thumbnails or linking to the full-size images instead of embedding them all.
+
 ## Sections in `index.html`
 
 Below are the primary sections found in `index.html`. Each entry lists the element/ID, its purpose, and quick notes for editing.
