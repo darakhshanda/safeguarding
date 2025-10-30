@@ -9,6 +9,86 @@ A small static website that provides plain-language guidance, reporting pages, a
 - Clear layout with semantic HTML and accessible attributes.
 - Styles in `assets/css/style.css` and images under `assets/images/`.
 
+## Deployment
+
+![Deployment](https://darakhshanda.github.io/safeguarding/index.html)
+
+## Repository
+
+![Repository](https://darakhshanda.github.io/safeguarding)
+
+## Project Board
+
+![Project Board](https://github.com/users/darakhshanda/projects/3)
+
+## User Stories
+
+### 1
+
+![User story 1](assets/images/readme-image/user-story-1.png)
+
+### 2
+
+![User story 2](assets/images/readme-image/user-story-2.png)
+
+### 3
+
+![User story 3](assets/images/readme-image/user-story-3.png)
+
+### 4
+
+![User story 4](assets/images/readme-image/user-story-4.png)
+
+### 5
+
+![User story 5](assets/images/readme-image/user-story-5.png)
+
+### 6
+
+![User story 6](assets/images/readme-image/user-story-6.png)
+
+### 8
+
+![User story 8](assets/images/readme-image/user-story-8.png)
+
+### 9
+
+![User story 9](assets/images/readme-image/user-story-9.png)
+
+### 10
+
+![User story 10](assets/images/readme-image/user-story-10.png)
+
+### 11
+
+![User story 11](assets/images/readme-image/user-story-11.png)
+
+#### Website is fully responsive — Mobile
+
+![mobile](assets/images/readme-image/mobile-1.png)
+![mobile](assets/images/readme-image/mobile-2.png)
+![mobile](assets/images/readme-image/mobile-3.png)
+![mobile](assets/images/readme-image/mobile-4.png)
+![mobile](assets/images/readme-image/mobile-5.png)
+![mobile](assets/images/readme-image/mobile-6.png)
+![mobile](assets/images/readme-image/mobile-7.png)
+
+#### Website is fully responsive — Tablet
+
+![Tablet](assets/images/readme-image/ipad-1.png)
+![Tablet](assets/images/readme-image/ipad-2.png)
+![Tablet](assets/images/readme-image/ipad-3.png)
+
+#### Website is fully responsive — Laptop
+
+![Laptop](assets/images/readme-image/laptop-1.png)
+![Laptop](assets/images/readme-image/laptop-2.png)
+
+#### Website is fully responsive — Desktop
+
+![Desktop](assets/images/readme-image/desktop-1.png)
+![Desktop](assets/images/readme-image/desktop-2.png)
+
 ## Files (overview)
 
 - `index.html` — Home / overview page (documented below)
@@ -18,9 +98,11 @@ A small static website that provides plain-language guidance, reporting pages, a
 - `assets/css/style.css` — Main stylesheet
 - `assets/images/` — Images and manifest (`site.webmanifest`)
 
-## Readme images / screenshots
-
 The repository includes a small set of demo screenshots used for the README and documentation previews. They live in `assets/images/readme-image/`.
+
+## Wireframe images
+
+Belsamiq--used for wireframes for mobile, table and desktop screen sizes.
 
 Desktop, tablet and mobile views:
 
@@ -32,38 +114,38 @@ _Desktop — full-width preview used for README showcase._
 
 _Tablet — medium-width preview._
 
-![Mobile view](assets/images/readme-image/mobile.png)
+## Project-Board
+
+![Mobile view](assets/images/readme-image/safeguarding-project-board.png)
+
+## Repository (screenshots)
+
+![Mobile view](assets/images/readme-image/safeguarding-repository.png)
 
 _Mobile — narrow/small-screen preview._
 
 Additional screenshots (click to open full size):
-
-![Screenshot 1](assets/images/readme-image/Screenshot%202025-10-30%20053812.png)
-![Screenshot 2](assets/images/readme-image/Screenshot%202025-10-30%20053827.png)
-![Screenshot 3](assets/images/readme-image/Screenshot%202025-10-30%20053912.png)
-![Screenshot 4](assets/images/readme-image/Screenshot%202025-10-30%20053921.png)
-![Screenshot 5](assets/images/readme-image/Screenshot%202025-10-30%20053934.png)
-![Screenshot 6](assets/images/readme-image/Screenshot%202025-10-30%20053944.png)
-![Screenshot 7](assets/images/readme-image/Screenshot%202025-10-30%20053954.png)
-![Screenshot 8](assets/images/readme-image/Screenshot%202025-10-30%20083110.png)
-
+![Hero image](assets/images/readme-image/hero.png)
 If you rename or move these images, update the paths above. To reduce README size on GitHub, consider using lower-resolution thumbnails or linking to the full-size images instead of embedding them all.
 
 ## Sections in `index.html`
 
 Below are the primary sections found in `index.html`. Each entry lists the element/ID, its purpose, and quick notes for editing.
+![Hero image](assets/images/readme-image/index.png)
 
 -- Navigation (`<nav id="navbar">`)
 
 - Purpose: global site navigation and brand/logo.
 - Links: Home (`index.html`), Information (`#information`), Help (`#action`), Report (`report.html`).
 - Edit notes: Update links or add menu items here. The small script at the bottom closes the mobile menu after link clicks.
+  ![Hero image](assets/images/readme-image/report.png)
 
 -- Header / Hero (`<header id="header">`)
 
 - Purpose: site tagline and primary message.
 - Edit notes: contains `#hero-section` placeholder and the main heading copy. Use `assets/images/` for any hero imagery.
 
+![Hero image](assets/images/readme-image/people.png)
 -- Information (`<section id="information">`)
 
 - Purpose: brief introduction to safeguarding, short explanation and call-to-action.
@@ -73,6 +155,7 @@ Below are the primary sections found in `index.html`. Each entry lists the eleme
 
 - Purpose: four 'flat-sign' quick links (Report, Get support, Emergency, Look for signs).
 - Edit notes: each tile is an `<a>` with label, action, and sub text. Links point to internal pages or anchors (e.g., `report.html`, `help.html`, `#types-of-abuse`).
+  ![Hero image](assets/images/readme-image/actions.png)
 
 -- People needing safeguarding (`<section id="people-needing-safeguarding">`)
 
@@ -80,6 +163,7 @@ Below are the primary sections found in `index.html`. Each entry lists the eleme
 - Edit notes: images referenced are in `assets/images/` (filenames like `safeguarding_child.png`). Keep `alt` text descriptive for accessibility.
 
 -- Types of Abuse (`<section id="types-of-abuse">`)
+![Hero image](assets/images/readme-image/types-of-abuse.png)
 
 - Purpose: a Bootstrap carousel listing many abuse types and signs/indicators.
 - Edit notes: carousel items are inside `.carousel-inner` as `.carousel-item` — update headings, copy, and lists here. The carousel uses Bootstrap 5 markup and controls.
@@ -88,8 +172,8 @@ Below are the primary sections found in `index.html`. Each entry lists the eleme
 
 - Purpose: titled "6 Principles of Safeguarding". A `div` with `id="six-principles"` is present for the principles content.
 - Edit notes: currently the `#six-principles` container is empty — add markup here (cards, a list, or small paragraphs) to display the six principles.
-
--- Helpful resources (`<section id="helpful-resources">`)
+  ![Hero image](assets/images/readme-image/desktop-2.png)
+  -- Helpful resources (`<section id="helpful-resources">`)
 
 - Purpose: curated external links (NSPCC, Age UK, Childline, etc.).
 - Edit notes: links are external — set `target="_blank" rel="noopener"` if you want them to open in a new tab; keep descriptions short.
@@ -98,6 +182,7 @@ Below are the primary sections found in `index.html`. Each entry lists the eleme
 
 - Purpose: contact details, social links, and newsletter subscribe form (posts to `success.html`).
 - Edit notes: the subscribe form is a plain POST to `success.html` — adjust `action` if you wire up a real backend or JS handler.
+  ![Hero image](assets/images/readme-image/contact.png)
 
 ## Quick editing guide
 
@@ -113,25 +198,27 @@ Below are the primary sections found in `index.html`. Each entry lists the eleme
 
 ## How to view locally
 
-1. Quick (no server): open `index.html` in your browser.
+1. Quick (no server): open `https://darakhshanda.github.io/safeguarding/index.html` in your browser.
 2. Recommended (local server):
 
-```powershell
-# from the project root folder
-python -m http.server 8000
-```
+## Tested
 
-[link \[text\] [(http://localhost:8000)] Then open in your browser.
+`https://validator.w3.org/detailedhtml#validate-by-uri`
 
-## Contributing
+`https://jigsaw.w3.org/css-validator/#validate_by_urihttps://validator.w3.org/detailed.html#validate-by-uri`
 
-1. Create a branch from `main`.
-2. Make changes and open a pull request describing what you changed and why.
-3. For copy changes, ensure someone with subject-matter knowledge reviews sensitive wording (safeguarding guidance should be accurate and clear).
+`https://jigsaw.w3.org/css-validator/#validate_by_uri`
+
+## Credits
+
+AI generated images used, all thanks to Copilot and free icons from `https://fontawesome.com/icons`
 
 ## License
 
-No license is included in this repository. Add a `LICENSE` file if you want to publish under an open license.
+Blasamiq
+Bootstrap
+Visual code
+`Code Institute` for providing licences included in our LMS to use in this repository. Add a file if you want to publish under an open license.
 
 ---
 
