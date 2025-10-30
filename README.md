@@ -15,7 +15,7 @@ A small static website that provides plain-language guidance, reporting pages, a
 
 ## Repository
 
-![Repository][repositoryDefinition]
+git ![Repository][repositoryDefinition]
 
 ## Project Board
 
