@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="A website to recognise, respond, and protect. This site provides plain‑language guidance on what safeguarding means, common signs to watch for, and clear action steps — plus safe ways to report concerns and find urgent support."
+        content="A website to recognise, respond, and protect. This site provides plain language guidance on what safeguarding means, common signs to watch for, and clear action steps — plus safe ways to report concerns and find urgent support."
         keywords="safeguarding, protection, support, reporting, guidance, safety, vulnerable individuals">
     <title>Safeguarding|Home</title>
     <!-- flat SVG favicon (simple teal shield). Keep PNG fallbacks below if present. -->
@@ -23,6 +23,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 
 <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
 
@@ -47,18 +48,32 @@
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#information">Information</a>
+                        <a class="nav-link" href="#information"><i class="fa-regular fa-user-shield"></i>Information</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="help.html"><i class="fa-solid fa-hands-holding-child"></i>Help</a>
+                        <a class="nav-link" href="#action"><i class="fa-solid fa-hands-holding-child"></i>Help</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="report.html">Report</a>
+                        <a class="nav-link" href="report.html"><i class="fa-regular fa-user-shield"></i>Report</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- Header with carousel -->
+    <header id="header" class="container">
+        <div id="hero-section" class="d-flex start-0 mb-4">
+        </div>
+        <div class="container position-relative z-2">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10  text-center">
+
+                    <h3>Everyone has the right to feel safe and protected.</h3>
+
+                </div>
+            </div>
+        </div>
+    </header>
     <!-- Report form section -->
     <section id="Report-form" class="container section">
         <div class="row justify-content-center">
@@ -154,6 +169,22 @@
 
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
+    <!-- Close mobile navbar when a nav link is clicked (Bootstrap 5) -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var navbarCollapse = document.getElementById('navbarSupportedContent');
+            if (!navbarCollapse) return;
+            var navLinks = navbarCollapse.querySelectorAll('.nav-link');
+            navLinks.forEach(function (link) {
+                link.addEventListener('click', function () {
+                    if (navbarCollapse.classList.contains('show')) {
+                        var bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse) || new bootstrap.Collapse(navbarCollapse, { toggle: false });
+                        bsCollapse.hide();
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>

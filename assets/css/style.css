@@ -172,7 +172,7 @@ footer {
   height: 400px;
 }
 .custom-button-outline {
-  border: 3px solid var(--color-red);
+  border: 3px solid var(--color-green-light);
   background-color: var(--color-green-light);
   color: var(--highlight-color);
   padding: 7px 25px;

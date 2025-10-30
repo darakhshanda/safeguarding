@@ -3,7 +3,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Safeguarding logo">
   <title>Safeguarding</title>
   <desc>Flat teal shield with white family silhouettes</desc>
-  <rect width="64" height="64" fill="transparent"/>
+  <rect width="64" height="64" fill="none"/>
   <!-- shield -->
   <path d="M32 3 L54 12 V28 C54 40 44 49 32 56 C20 49 10 40 10 28 V12 Z" fill="#00DAD0"/>
 
