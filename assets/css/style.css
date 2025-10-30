@@ -17,6 +17,7 @@
   --color-shadow: rgba(0, 0, 0, 0.247);
   --primary-font: "Rubik", "Playfair Display", serif;
   --secondary-font: "Lato", sans-serif;
+  --social-icon-size: 14rem; /* default size for social icons; tweak as needed */
 }
 html {
   scroll-padding-top: nav(--navbar-height);
@@ -159,12 +160,20 @@ footer {
   border: 2px solid var(--color-border);
   border-radius: 5px;
 }
+/* social icons (easily resize by changing --social-icon-size in :root) */
 #social-links .icon {
   color: var(--color-text-darker);
   margin: 0 10px;
-  font-size: 1.5rem;
-  size-adjust: 70px;
-  transition: color 0.3s ease;
+  font-size: var(--social-icon-size);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(var(--social-icon-size) + 20px);
+  transition: transform 150ms ease, color 0.3s ease;
+}
+#social-links .icon:hover,
+#social-links .icon:focus {
+  transform: scale(1.15);
 }
 .flat-signs {
   display: flex;
