@@ -133,7 +133,7 @@ footer {
 }
 .custom-carousel-item > span {
   height: 100px;
-  text-align: left justify;
+  text-align: justify;
 }
 .custom-carousel-item {
   background-color: var(--color-green-light);
