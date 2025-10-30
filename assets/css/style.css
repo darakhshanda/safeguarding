@@ -1,21 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600&family=Playfair+Display:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 :root {
   --color-green: #959c54;
-  --color-green-dark: #2e5e4f;
+  --color-green-dark: #043324;
   --color-green-light: #a3c2a0;
-  --color-blue: #2596be;
-  --color-palete: #503453b;
-  --color-red: #bb4b50;
-  --color-tab-bg: #d3a191;
+
+  --color-red: #b92a31;
+  --color-tab-bg: #b96c52;
   --color-nude-bg: #f5f1ed;
-  --color-text-dark: rgba(11, 48, 128, 0.644);
+  --color-text-dark: rgba(2, 28, 83, 0.644);
   --color-text-muted: #333333;
-  --color-text-darker: #1a1a1a;
-  --color-btn: #5c8a72;
-  --color-btn-hover: #2e5e4f;
+  --color-text-darker: #000000;
+  --color-btn: #012412c5;
+  --color-btn-hover: #000705;
   --color-border: #ddddd8;
-  --color-shadow: rgba(0, 0, 0, 0.05);
-  --primary-font: "Playfair Display", serif;
+  --color-shadow: rgba(0, 0, 0, 0.247);
+  --primary-font: "Rubik", "Playfair Display", serif;
   --secondary-font: "Lato", sans-serif;
 }
 html {
@@ -28,6 +28,7 @@ body {
 }
 #navbar {
   background-color: var(--color-green);
+  color: var(--color-text-darker);
 }
 #navbar .logo {
   width: 30px;
@@ -120,14 +121,14 @@ footer {
 }
 .custom-carousel-item {
   background-color: var(--color-green-light);
-  color: var(--color-text-dark);
+  color: var(--color-text-darker);
   padding: 7px 25px;
   height: 400px;
 }
 .custom-button-outline {
   border: 3px solid var(--color-green-light);
   background-color: var(--color-green-light);
-  color: var(--highlight-color);
+  color: var(--color-text-darker);
   padding: 7px 25px;
 }
 .custom-button-outline:hover {
@@ -143,6 +144,13 @@ footer {
   width: 50px;
   border: 2px solid var(--color-border);
   border-radius: 5px;
+}
+#social-links .icon {
+  color: var(--color-text-darker);
+  margin: 0 10px;
+  font-size: 1.5rem;
+  size-adjust: 70px;
+  transition: color 0.3s ease;
 }
 .flat-signs {
   display: flex;
