@@ -11,33 +11,33 @@ A small static website that provides plain-language guidance, reporting pages, a
 
 ## Deployment
 
-![Deployment](https://darakhshanda.github.io/safeguarding/index.html)
+![Deployment][deploymentLink]
 
 ## Repository
 
-![Repository](https://darakhshanda.github.io/safeguarding)
+![Repository][repositoryDefinition]
 
 ## Project Board
 
-![Project Board](https://github.com/users/darakhshanda/projects/3)
+![Project Board][safeguardingProjectDef]
 
 ## User Stories
 
 ### 1
 
-![User story 1](assets/images/readme-image/user-story-1.png)
+![User story 1][userStory1Image]
 
 ### 2
 
-![User story 2](assets/images/readme-image/user-story-2.png)
+![User story 2][userStory2Image]
 
 ### 3
 
-![User story 3](assets/images/readme-image/user-story-3.png)
+![User story 3][userStoryImage3]
 
 ### 4
 
-![User story 4](assets/images/readme-image/user-story-4.png)
+![User story 4][userStory4Image]
 
 ### 5
 
@@ -223,3 +223,11 @@ Visual code
 ---
 
 This README was updated to document the sections in `index.html` and provide quick editing guidance.
+
+[deploymentLink]: httpads://darakhshanda.github.io/safeguarding/index.html
+[repositoryDefinition]: https://darakhshanda.github.io/safeguarding
+[safeguardingProjectDef]: https://github.com/users/darakhshanda/projects/3
+[userStory1Image]: assets/images/readme-image/user-story-1.png
+[userStory2Image]: assets/images/readme-image/user-story-2.png
+[userStoryImage3]: assets/images/readme-image/user-story-3.png
+[userStory4Image]: assets/images/readme-image/user-story-4.png
