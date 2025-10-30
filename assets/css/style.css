@@ -181,11 +181,6 @@ footer {
   background-color: var(--color-green-dark);
   color: var(--color-red);
 }
-#call-emergency {
-  margin-top: 10px;
-  padding: 10px 20px;
-  color: darkred;
-}
 #subscribe-btn {
   margin-top: 10px;
   padding: 10px 20px;
