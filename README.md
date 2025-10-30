@@ -41,34 +41,34 @@ A small static website that provides plain-language guidance, reporting pages, a
 
 ### 5
 
-![User story 5](assets/images/readme-image/user-story-5.png)
+![User story 5][userStory5Image]
 
 ### 6
 
-![User story 6](assets/images/readme-image/user-story-6.png)
+![User story 6][userStoryImage6]
 
 ### 8
 
-![User story 8](assets/images/readme-image/user-story-8.png)
+![User story 8][def]
 
 ### 9
 
-![User story 9](assets/images/readme-image/user-story-9.png)
+![User story 9][userStoryImage9]
 
 ### 10
 
-![User story 10](assets/images/readme-image/user-story-10.png)
+![User story 10][userStoryImage10]
 
 ### 11
 
-![User story 11](assets/images/readme-image/user-story-11.png)
+![User story 11][userStoryImage11]
 
 #### Website is fully responsive — Mobile
 
-![mobile](assets/images/readme-image/mobile-1.png)
-![mobile](assets/images/readme-image/mobile-2.png)
-![mobile](assets/images/readme-image/mobile-3.png)
-![mobile](assets/images/readme-image/mobile-4.png)
+![mobile][mobileImage]
+![mobile][mobileImage]
+![Mobile device screenshot of the safeguarding website home page showing a single-column layout with a top navigation bar containing a logo and hamburger menu, a hero section with the heading Safeguarding — Static informational site and a short explanatory paragraph, three quick-action tiles labeled Report, Get support, Emergency, and a visible call-to-action button; white background with blue accent elements; overall calm, clear, and helpful tone](assets/images/readme-image/mobile-3.png)
+![Mobile screenshot of the Safeguarding website showing the Types of Abuse section. Top header with a small shield logo and hamburger menu, centered page title TYPES OF ABUSE. A green carousel card is focused with heading Domestic abuse, paragraph: Threats, violence and abuse between individuals that are family members or in an intimate relationship. Subheading Signs | Indicators followed by bullets: Unexplained injuries; Changes in behaviour; Fearfulness around certain individuals; Withdrawal from social activities. Below the card the heading ACTION STEPS is partially visible. Single-column mobile layout, calm and informative tone](assets/images/readme-image/mobile-4.png)
 ![mobile](assets/images/readme-image/mobile-5.png)
 ![mobile](assets/images/readme-image/mobile-6.png)
 ![mobile](assets/images/readme-image/mobile-7.png)
@@ -224,10 +224,18 @@ Visual code
 
 This README was updated to document the sections in `index.html` and provide quick editing guidance.
 
-[deploymentLink]: httpads://darakhshanda.github.io/safeguarding/index.html
+[deploymentLink]: https://darakhshanda.github.io/safeguarding/
 [repositoryDefinition]: https://darakhshanda.github.io/safeguarding
 [safeguardingProjectDef]: https://github.com/users/darakhshanda/projects/3
 [userStory1Image]: assets/images/readme-image/user-story-1.png
 [userStory2Image]: assets/images/readme-image/user-story-2.png
 [userStoryImage3]: assets/images/readme-image/user-story-3.png
 [userStory4Image]: assets/images/readme-image/user-story-4.png
+[userStory5Image]: assets/images/readme-image/user-story-5.png
+[userStoryImage6]: assets/images/readme-image/user-story-6.png
+[def]: assets/images/readme-image/user-story-8.png
+[userStoryImage9]: assets/images/readme-image/user-story-9.png
+[userStoryImage10]: assets/images/readme-image/user-story-10.png
+[userStoryImage11]: def
+[mobileImage]: assets/images/readme-image/mobile-2.png
+[mobileImage]: assets/images/readme-image/mobile-1.png
