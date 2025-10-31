@@ -92,7 +92,7 @@ h2 {
 footer {
   background-color: var(--color-green);
   color: #fff;
-  padding-bottom: 0rem;
+  padding-bottom: 1rem;
   width: auto;
 }
 #people-needing-safeguarding .card-footer {
@@ -172,9 +172,14 @@ footer {
   width: calc(var(--social-icon-size) + 20px);
   transition: transform 150ms ease, color 0.3s ease;
 }
-#social-links .icon:hover,
-#social-links .icon:focus {
-  transform: scale(1.15);
+footer i.fa-facebook {
+  font-size: 3rem;
+}
+footer i.fa-instagram {
+  font-size: 3rem;
+}
+footer i.fa-twitter-square {
+  font-size: 3rem;
 }
 .flat-signs {
   display: flex;
