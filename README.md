@@ -204,10 +204,16 @@ Below are the primary sections found in `index.html`. Each entry lists the eleme
 ## Tested
 
 `https://validator.w3.org/detailedhtml#validate-by-uri`
+![HTML validator test](assets/images/readme-image/Screenshot%202025-11-01%20005105.png)
 
 `https://jigsaw.w3.org/css-validator/#validate_by_urihttps://validator.w3.org/detailed.html#validate-by-uri`
+![W3C validator test](assets/images/readme-image/Screenshot%202025-11-01%20005044.png)
 
-`https://jigsaw.w3.org/css-validator/#validate_by_uri`
+
+![Lighthouse Test](assets/images/readme-image/Screenshot%202025-10-31%20175037.png)
+
+`https://accessibilitycheck.friendlycaptcha.com/`
+![ Accessibility check](assets/images/readme-image/Screenshot%202025-11-01%20005139.png)
 
 ## Credits
 
@@ -224,7 +230,7 @@ Visual code
 
 This README was updated to document the sections in `index.html` and provide quick editing guidance.
 
-[deploymentLink]: https://darakhshanda.github.io/safeguarding/
+[deploymentLink]: https://darakhshanda.github.io/safeguarding/index.html
 [repositoryDefinition]: https://darakhshanda.github.io/safeguarding
 [safeguardingProjectDef]: https://github.com/users/darakhshanda/projects/3
 [userStory1Image]: assets/images/readme-image/user-story-1.png
