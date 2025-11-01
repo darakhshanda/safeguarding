@@ -18,10 +18,10 @@
   --primary-font: "Rubik", "Playfair Display", serif;
   --secondary-font: "Lato", sans-serif;
   --social-icon-size: 14rem; /* default size for social icons; tweak as needed */
-  --navbar-height: 50px;
+ 
 }
 html {
-  scroll-padding-top: nav(--navbar-height);
+  scroll-padding-top: 70px;
 }
 body {
   background-color: var(--color-nude-bg);
